@@ -13,26 +13,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<h3>Aprende Bitcoin en tu idioma</h3>
 			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
+				Una mezcla de seminarios socráticos, clases y talleres para mejorar tus habilidades técnicas.<br />
+				Profundiza tu conocimiento con mentorías mensuales y horas de asesoría privada. <br />
+				Aprende de Bitcoiners con años de experiencia en la industria. <br />
+				Ayudamos a nuestros estudiantes durante su proceso de búsqueda laboral en la industria.
 			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
 			<p>
 				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
 					>read the docs
@@ -44,7 +31,144 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 					>astro-blog-template
 				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
 			</p>
+
 		</main>
+		<section class="features">
+			<div class="container">
+				<h5>¿Por qué aprender con la Librería de Satoshi?</h5>
+			</div>	
+			<div class="container">
+				<h2>APRENDIZAJE HOLÍSTICO</h2>
+			</div>
+			<div class="container_features">
+				<div class="feature">
+					<img src="/360learning.png" alt="Aprendizaje 360" />
+					<h5>Aprendizaje 360</h5>
+					<p>Una mezcla de seminarios socráticos, clases y talleres para mejorar tus habilidades técnicas.</p>
+				</div>
+				<div class="feature">
+					<img src="/community.png" alt="Comunidad" />
+					<h5>Comunidad</h5>
+					<p>Profundiza tu conocimiento con mentorías mensuales y horas de asesoría privada.</p>
+				</div>
+				<div class="feature">
+					<img src="/instructors.png" alt="Instructores" />
+					<h5>Instructores</h5>
+					<p>Aprende de Bitcoiners con años de experiencia en la industria.</p>
+				</div>
+				<div class="feature">
+					<img src="/laboralsearch.png" alt="Búsqueda laboral" />
+					<h5>Búsqueda laboral</h5>
+					<p>Ayudamos a nuestros estudiantes durante su proceso de búsqueda laboral en la industria.</p>
+				</div>
+			</div>
+		</section>
+		<section class="libreria-stats">
+			<div class="container">
+				<h2>LIBRERIA DE SATOSHI EN NÚMEROS</h2>
+				<div class="stats-grid">
+					<div class="stat">
+						<span class="number">500+</span><br />
+						<span class="label">aplicaciones</span>
+					</div>
+					<div class="stat">
+						<span class="number">142+</span><br />
+						<span class="label">graduados</span>
+					</div>
+					<div class="stat">
+						<span class="number">25+</span><br />
+						<span class="label">países</span>
+					</div>
+					<div class="stat">
+						<span class="number">300+</span><br />
+						<span class="label">miembros de la comunidad</span>
+					</div>
+					<div class="stat">
+						<span class="number">117+</span><br />
+						<span class="label">becas otorgadas</span>
+					</div>
+					<div class="stat">
+						<span class="number">16+</span><br />
+						<span class="label">líderes de educación</span>
+					</div>
+				</div>
+			</div>
+		</section>
 		<Footer />
 	</body>
 </html>
+
+<style>
+.libreria-stats {
+  background-color: #f8f8f8; /* Color de fondo */
+  padding: 40px 0; /* Espacio superior e inferior */
+}
+
+.container {
+  max-width: 960px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor */
+  text-align: center; /* Alinear el texto al centro */
+}
+
+h2 {
+  color: #333; /* Color del título */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.stats-grid {
+  display: grid; /* Usar grid para la disposición */
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  grid-gap: 20px; /* Espacio entre elementos */
+}
+
+.stat {
+  text-align: center; /* Alinear el texto al centro */
+}
+
+.number {
+  font-size: 3em; /* Tamaño de los números */
+  color: #ff9900; /* Color de los números */
+  font-weight: bold; /* Grosor de los números */
+}
+
+.label {
+  color: #666; /* Color de las etiquetas */
+}
+
+
+.features {
+  padding: 20px 0;
+  background-color: #f8f8f8; /* Color de fondo */
+}
+
+.container_features {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex; /* Para alinear los elementos en línea */
+  justify-content: space-around; /* Espacio igual entre elementos */
+  flex-wrap: wrap; /* Para que se ajusten a pantallas más pequeñas */
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 20px; /* Espacio entre elementos */
+  width: 250px; /* Ancho de cada elemento */
+}
+
+.feature img {
+  width: 150px; /* Ancho de las imágenes */
+  height: 150px; /* Alto de las imágenes */
+  margin-bottom: 10px;
+}
+
+.feature h5{
+  color: #ff9900;
+}
+
+.feature p {
+  color: #666;
+  font-size: 14px;
+}
+
+
+</style>

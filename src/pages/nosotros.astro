@@ -1,0 +1,110 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import TeamCard from '../components/TeamCard.astro';
+
+---
+
+<Layout
+	title="Sobre Nosotros"
+	description="Lorem ipsum dolor sit amet"
+	pubDate={new Date('February 19 2025')}
+	heroImage="/placeholder.png"
+>
+	<p>
+		La misión de la Librería de Satoshi es hacer la educación técnica de Bitcoin accesible a la mayor cantidad de personas de habla hispana en América Latina y el Caribe, permitiéndoles a cada uno de ellos convertirse en Bitcoin Core Contributors, educadores técnicos de Bitcoin y emprendedores en el ecosistema.
+	</p>
+	<p>
+		A través de una serie de cursos y seminarios, desde los conceptos básicos de Bitcoin hasta las especificaciones más avanzadas de Lightning Network, guiamos a nuestros estudiantes a través de un viaje de aprendizaje holístico que consiste en lecciones en línea, lecturas complementarias asincrónicas, talleres prácticos, horas de tutoría y más.
+	</p>
+	<p>	
+		Todas las sesiones se imparten en español, a través de Zoom o Jitsi, y están facilitadas por otros Bitcoiners.
+	</p>
+	<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px;">
+		<TeamCard 
+			name="Gustavo Torres" 
+			role="Líder de Educación Lightning Network & LBCL" 
+			image="/gustavotorres.png" 
+			twitter="https://twitter.com/gustavotorres" 
+			linkedin="https://linkedin.com/in/gustavotorres"
+		/>
+		<TeamCard 
+			name="Federico 'Fox' Zupicich" 
+			role="Líder de Educación Lightning Network & LBCL" 
+			image="/federicofox.png" 
+			twitter="https://twitter.com/foxzupicich" 
+			linkedin="https://linkedin.com/in/federicozupicich" 
+		/>
+		
+		<TeamCard 
+			name="Carlos xWazzo" 
+			role="Líder de Educación Lightning Network" 
+			image="/carlosxwazzo.png" 
+			twitter="https://twitter.com/carlosxwazzo" 
+			linkedin="https://linkedin.com/in/carlosxwazzo" 
+		/>
+		
+		<TeamCard 
+			name="José Dorrego" 
+			role="Líder de Educación Lightning Network" 
+			image="/josedorrego.png" 
+			twitter="https://twitter.com/josedorrego" 
+			linkedin="https://linkedin.com/in/josedorrego" 
+		/>
+		
+		<TeamCard 
+			name="Dulce Villarreal" 
+			role="Founder & LBCL" 
+			image="/dulcevillarreal.jpeg" 
+			twitter="https://twitter.com/dulcevillarreal" 
+			linkedin="https://linkedin.com/in/dulcevillarreal" 
+		/>
+		
+		<TeamCard 
+			name="Jordi Montes" 
+			role="Líder de Educación" 
+			image="/jordimontes.png" 
+			twitter="https://twitter.com/jordimontes" 
+			linkedin="https://linkedin.com/in/jordimontes" 
+		/>
+		
+		<TeamCard 
+			name="BlueMoon" 
+			role="Líder de Educación Mastering Bitcoin" 
+			image="/bluemoon.jpg" 
+			twitter="https://twitter.com/bluemoon" 
+			linkedin="https://linkedin.com/in/bluemoon" 
+		/>
+		
+		<TeamCard 
+			name="Iván Regalado" 
+			role="Líder de Educación Mastering Bitcoin" 
+			image="/ivanregalado.png" 
+			twitter="https://twitter.com/ivanregalado" 
+			linkedin="https://linkedin.com/in/ivanregalado" 
+		/>
+		
+		<TeamCard 
+			name="Genny Díaz" 
+			role="Directora de Producción Audio Visual Mastering Bitcoin" 
+			image="/gennydiaz.png" 
+			twitter="https://twitter.com/gennydiaz" 
+			linkedin="https://linkedin.com/in/gennydiaz" 
+		/>
+		
+		<TeamCard 
+			name="Jonny Ji" 
+			role="Líder de Educación Mastering Bitcoin" 
+			image="/jonnyji.jpg" 
+			twitter="https://twitter.com/jonnyji" 
+			linkedin="https://linkedin.com/in/jonnyji" 
+		/>
+		
+		<TeamCard 
+			name="Lazy Satoshi" 
+			role="Líder de Educación LBCL" 
+			image="/lazysatoshi.png" 
+			twitter="https://twitter.com/lazysatoshi" 
+			linkedin="https://linkedin.com/in/lazysatoshi" 
+		/>	
+	</div>
+</Layout>

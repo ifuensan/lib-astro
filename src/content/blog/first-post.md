@@ -1,16 +1,38 @@
 ---
-title: 'First post'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
-heroImage: '/blog-placeholder-3.jpg'
+title: '4to Halving de Bitcoin: Un hito que reafirma los principios de escasez y descentralización'
+description: 'El ecosistema de Bitcoin se encuentra a las puertas del “halving”, uno de los eventos más significativos en su ciclo de vida. Este acontecimiento, que marca la reducción a la mitad de la recompensa por minar nuevos bloques, no es solo un ajuste técnico, sino también una poderosa ilustración de los principios fundamentales sobre los que se construye esta tecnología: la escasez digital y la descentralización'
+pubDate: 'Apr 17 2024'
+heroImage: '/post1.jpg'
+createdBy: 'Genny Díaz' 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+El ecosistema de Bitcoin se encuentra a las puertas del “halving”, uno de los eventos más significativos en su ciclo de vida. Este acontecimiento, que marca la reducción a la mitad de la recompensa por minar nuevos bloques, no es solo un ajuste técnico, sino también una poderosa ilustración de los principios fundamentales sobre los que se construye esta tecnología: la escasez digital y la descentralización.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Asimismo, el halving de bitcoin se ha ido convirtiendo en un fenómeno cultural y social de gran relevancia, no solo para los bitcoiners, sino para los interesados en finanzas digitales y el público en general. 
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+## Bitcoin, un activo finito en el mundo digital
+La **escasez programada y verificable** es crucial para la propuesta de valor de Bitcoin. De hecho, en su protocolo podemos identificar 2 conceptos claves que lo convierten en un activo escaso: el suministro limitado (solo existirán 21 millones de monedas) y el halving. 
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Como mencionamos, elhalvingimplica la **reducción a la mitad de la recompensa en bitcoins otorgada a los mineros** por cada bloque validado en la red. Se trata de un evento programado en el código fuente de Bitcoin, que ocurre cada 210.000 bloques, aproximadamente cada 4 años. 
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Esta característica está diseñada para imitar la extracción de activos físicos raros, como el oro y las piedras preciosas, que se vuelven más difíciles y costosos de obtener con el tiempo. De esta manera, actúa como un **mecanismo de control de la tasa de emisión de nuevos bitcoins**, asegurando que la oferta permanezca predecible y limitada.
+
+En abril de 2024 será la 4ta ocurrencia de este evento en Bitcoin, la cual llevará la recompensa de 6,25 BTC a 3,125 BTC por bloque minado. En el seminario“Mastering Bitcoin” de la Librería de Satoshi podrás profundizar en el funcionamiento de esta y otras características técnicas de la principal criptomoneda.
+
+## Fortaleciendo la red de Bitcoin a través del poder colectivo
+Además de gestionar la emisión de nuevas monedas, el halving también refuerza la seguridad y la descentralización de la red Bitcoin, un fundamento central de su diseño. 
+
+Esto se debe a que la reducción de la recompensa de bloque **incentiva a los mineros a operar de manera más eficiente y sostenible**, lo que se traduce en la incorporación de hardware de última generación para asegurar la red. A su vez, desincentiva la concentración del poder de hash en unos pocos actores con grandes recursos económicos, que podrían llegar a la minería de bitcoin atraídos por una rentabilidad demasiado alta. 
+
+En otras palabras, el halving ayuda a **mantener la red accesible y segura para una base más amplia de participantes**, fortaleciendo su resistencia contra ataques y manipulaciones.
+
+## El halving de Bitcoin como evento cultural y social 
+Pero la escasez, la descentralización y la seguridad no son las únicas razones por la que el halving de Bitcoin es importante. Hay otros elementos, más allá de sus implicaciones técnicas y económicas, que lo hacen cada vez más relevante.
+
+Basta con revisar las redes sociales para notar que **el halving se ha convertido en un evento cultural y social de gran importancia** dentro del ecosistema bitcoiner. Cada cuatro años, la comunidad se une en torno a este gran acontecimiento, celebrando su significado y anticipando sus potenciales efectos en el precio.
+
+En general, Bitcoin atrae más cobertura de prensa durante el halving. Los medios de comunicación especializados, analistas financieros e incluso el público en general suelen compartir sus opiniones y discutir su relevancia en el contexto global.
+
+No obstante, a medida que el evento acapara los titulares y despierta el interés, se abren nuevos espacios para el aprendizaje de esta tecnología. El halving actúa como un catalizador para la educación sobre Bitcoin y sus características únicas, contribuyendo a su adopción y comprensión.
+
+Estamos ante una **oportunidad única para adentrarse en el mundo de Bitcoin y comprender sus fundamentos**. La Librería de Satoshi cuenta con una amplia oferta de cursos, gratuitos y de pago, diseñados para que cualquier persona pueda convertirse en un experto. Únete a nuestra comunidad de entusiastas en Discord y visita nuestro sitio web [libreriadesatoshi.com](https://libreriadesatoshi.com/) para comenzar tu viaje educativo hoy.

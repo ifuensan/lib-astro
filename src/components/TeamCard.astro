@@ -1,0 +1,40 @@
+---
+export interface Props {
+  name: string;
+  role: string;
+  image: string;
+  twitter: string;
+  linkedin: string;
+}
+
+const { name, role, image, twitter, linkedin } = Astro.props;
+---
+
+<div class="teamcard-container">
+  <img src={image} alt={name}>
+  <h4>{name}</h4>
+  <p>{role}</p>
+  <a href={twitter}><img src="/twitter-icon.png" alt="Twitter"></a>
+  <a href={linkedin}><img src="/linkedin-icon.png" alt="LinkedIn"></a>
+</div>
+
+<style>
+  .teamcard-container {
+    text-align: center;
+    border: 1px solid #ccc; /* Añade un borde de 1 píxel, sólido y de color gris claro (#ccc) */
+    padding: 10px; /* Ajusta el padding para espaciar el contenido del borde */
+    border-radius: 8px; /* Opcional: añade bordes redondeados */
+  }.teamcard-container img { /* Imagen de perfil */
+    width: 100px; 
+    border-radius: 50%;
+  }.teamcard-container h4 { /* Nombre */
+    color: #DAA520;
+  }.teamcard-container p { /* Rol y "Bitcoin" */
+    /* Puedes añadir estilos adicionales aquí si lo deseas */
+  }.teamcard-container a { /* Enlaces de redes sociales */
+    /* Puedes añadir estilos adicionales aquí si lo deseas */
+  }.teamcard-container a img { /* Iconos de redes sociales */
+    width: 24px;
+    /* Puedes añadir estilos adicionales aquí si lo deseas */
+  }
+</style>
